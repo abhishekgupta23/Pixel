@@ -1,0 +1,202 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/timothy.js"></script>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="cache"/>
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="keywords" content="Enter Keywowrds" />
+<meta name="description" content="Discription Here" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="w3.css">
+
+
+<title>Web Site By Abhishek Narayan - www.Pixel.com</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<style type="text/css">
+.auto-style1 {
+	margin-top: 0px;
+}
+.auto-style2 {
+	margin-right: 30px;
+}
+.mySlides {display:none;}
+
+{
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 20px;
+}
+
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE 10 */
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* add button */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left:400px;
+}
+.button1 {border-radius: 40%;}
+</style>
+</head>
+<body>
+
+<div id="wrapper" class="auto-style2" style="width: 961px">
+
+
+<div id="top">
+<div id="logo" style="width: 456px">
+<img src="images/Capture5.PNG" width="559" height="102" />
+</div>
+<div id="topnav">
+<ul>
+<li><a href="photo.html">PHOTO<a></li>
+<li><a href="illustration.html">ILLUSTRATION<a></li>
+<li><a href="vector.html">VECTOR<a></li>
+<li><a href="services.html">VIDEOS<a></li>
+<li><a href="contact.html">MUSIC <a></li>
+<li><a style=text-align:right>EXPLORE<a></li>
+<li><a href="Login.html">LOG IN<a></li>
+<li><a href="join.html">JOIN<a></li>
+<li style=text-align:right ><a>UPLOAD</a></li>
+
+</ul>
+</div>
+</div>
+<div class="container">
+<div class="w3-content w3-section" style="max-width:962px">
+  <img class="mySlides" src="images/vector/virus-4999857__340.png" height="341" width="962" >
+  <img class="mySlides" src="images/vector/warning-40593__340.png" height="341" width="962" >
+  <img class="mySlides" src="images/vector/work-4997565__340.png" height="341" width="962">
+    <img class="mySlides" src="images/vector/wreath-4331664__340.png" height="341" width="962"  >
+<div class="content">
+    <h1 style="color:white">Stunning free vector art stock images</h1>
+    <p style="color:white">Over 90,000+ free vector art images shared by our talented community </p>
+    <p style="color:white"> Popular Images: nature, wallpaper, business, food, sky, love, summer, office, car, technology, beach, house &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  </div>
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/vector/amsterdam-4167026__340.png" style="width:100%">
+    <img src="images/vector/avocado-5130214__340.png" style="width:100%">
+    <img src="images/vector/australia-1296727__340.png" style="width:100%">
+    <img src="images/vector/business-4271251__340.png" style="width:100%">
+    <img src="images/vector/camera-4091991__340.png" style="width:100%">
+    <img src="images/vector/camp-4363073__340.png" style="width:100%">
+    <img src="images/vector/snowman-4711637__340.png" style="width:100%">
+    <img src="images/vector/dinosaur-4373602__340.png" style="width:100%"height="265">
+  </div>
+  <div class="column">
+    <img src="images/vector/gears-5193383__340.png" style="width:100%">
+    <img src="images/vector/hummingbird-295026__340.png" style="width:100%">
+    <img src="images/vector/letter-4395694__340.png" style="width:100%">
+    <img src="images/vector/location-4496459__340.png" style="width:100%">
+    <img src="images/vector/mask-4964590__340.png" style="width:100%">
+    <img src="images/vector/mountain-4694346__340.png" style="width:100%" height="250">
+    <img src="images/vector/old-tape-4398267__340.png" style="width:100%">
+    <img src="images/vector/tea-2975184__340.png" style="width:100%" height="250">
+    <img src="images/vector/paint-4588860__340.png" style="width:100%" height="250">
+  </div>  
+  <div class="column">
+    <img src="images/vector/plane-4301615__340.png" style="width:100%">
+    <img src="images/vector/planta-4822807__340.png" style="width:100%">
+    <img src="images/vector/poster-2690541__340.png" style="width:100%">
+    <img src="images/vector/question-2519654__340.png" style="width:100%">
+    <img src="images/vector/radio-cassette-3634616__340.png" style="width:100%">
+    <img src="images/vector/robot-in-space-4556429__340.png" style="width:100%">
+    <img src="images/vector/skull-2028286__340.png" style="width:100%" height="270" >
+  </div>
+</div>
+
+<br>
+<button class="button button1"> Discover more </button>
+<br>
+<br>
+<br>
+<h3 style="text-align:center"><a style="color:black" ><font size="+3">Free images and videos you can use anywhere</font size></a></h3>
+<br>
+<p style="text-align:center"><a style="color:black" ><font size="+1">Pixabay is a vibrant community of creatives, sharing copyright free images and videos. All contents are released under the Pixabay License, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.</a></p>
+<br>
+<br>
+<div id="footer">
+<p>Website by Abhishek Gupta</p>
+</div>
+</div>
+</body>
+</html>

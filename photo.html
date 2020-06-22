@@ -1,0 +1,200 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/timothy.js"></script>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/print.css" rel="stylesheet" type="text/css" media="print">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Type" content="cache"/>
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="keywords" content="Enter Keywowrds" />
+<meta name="description" content="Discription Here" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="w3.css">
+
+
+<title>Web Site By Abhishek Narayan - www.Pixel.com</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
+<style type="text/css">
+.auto-style1 {
+	margin-top: 0px;
+}
+.auto-style2 {
+	margin-right: 30px;
+}
+.mySlides {display:none;}
+
+{
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  padding: 20px;
+}
+
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE 10 */
+  flex: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* add button */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left:400px;
+}
+.button1 {border-radius: 40%;}
+</style>
+</head>
+<body>
+
+<div id="wrapper" class="auto-style2" style="width: 961px">
+
+
+<div id="top">
+<div id="logo" style="width: 456px">
+<img src="images/Capture5.PNG" width="559" height="102" />
+</div>
+<div id="topnav">
+<ul>
+<li><a href="index.html">PHOTO<a></li>
+<li><a href="illustration.html">ILLUSTRATION<a></li>
+<li><a href="vector.html">VECTOR<a></li>
+<li><a href="services.html">VIDEOS<a></li>
+<li><a href="contact.html">MUSIC <a></li>
+<li><a style=text-align:right>EXPLORE<a></li>
+<li><a href="Login.html">LOG IN<a></li>
+<li><a href="join.html">JOIN<a></li>
+<li style=text-align:right ><a>UPLOAD</a></li>
+
+</ul>
+</div>
+</div>
+<div class="container">
+<div class="w3-content w3-section" style="max-width:962px">
+  <img class="mySlides" src="images/italy-1587287__480.jpg" height="341" width="962" >
+  <img class="mySlides" src="images/mountain-landscape-2031539__480.jpg" height="341" width="962" >
+  <img class="mySlides" src="images/nature-3082832__480.jpg" height="341" width="962">
+    <img class="mySlides" src="images/utah-440520__480.jpg" height="341" width="962"  >
+<div class="content">
+    <h1 style="color:white">Stunning free stock photos for download</h1>
+    <p style="color:white"> Over 2 million+ royalty free stock photos shared by our talented community.</p>
+    <p style="color:white"> Popular Images: nature, wallpaper, business, food, sky, love, summer, office, car, technology, beach, house &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+  </div>
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="images/bake-5160388__340.jpg" style="width:100%">
+    <img src="images/balloon-5307204__340.jpg" style="width:100%">
+    <img src="images/berlin-5289802__340.jpg" style="width:100%">
+    <img src="images/blooming-field-5304878__340.jpg" style="width:100%">
+    <img src="images/box-write-in-it-5279529__340.jpg" style="width:100%">
+    <img src="images/impala-5232026__340.jpg" style="width:100%">
+    <img src="images/insect-5301092__340.jpg" style="width:100%"height="265">
+  </div>
+  <div class="column">
+    <img src="images/butterfly-2049567__480.jpg" style="width:100%">
+    <img src="images/chicory-5303171__340.jpg" style="width:100%">
+    <img src="images/child-5263902__340.jpg" style="width:100%">
+    <img src="images/driving-2681097__340.jpg" style="width:100%">
+    <img src="images/drop-3698073__480.jpg" style="width:100%">
+    <img src="images/img_mountains.jpg" style="width:100%">
+    <img src="images/friendship-5310026__340.jpg" style="width:100%">
+    <img src="images/fuchs-5303221__340.jpg" style="width:100%" height="250">
+  </div>  
+  <div class="column">
+    <img src="images/elephant-2380009__480.jpg" style="width:100%">
+    <img src="images/environmental-protection-326923__480.jpg" style="width:100%">
+    <img src="images/waterfall-5207223__340.jpg" style="width:100%">
+    <img src="images/fair-4856748__340.jpg" style="width:100%">
+    <img src="images/flower-5123954__340.jpg" style="width:100%">
+    <img src="images/img_forest.jpg" style="width:100%">
+    <img src="images/img_lights.jpg" style="width:100%" height="270" >
+  </div>
+</div>
+
+<br>
+<button class="button button1"> Discover more </button>
+<br>
+<br>
+<br>
+<h3 style="text-align:center"><a style="color:black" ><font size="+3">Free images and videos you can use anywhere</font size></a></h3>
+<br>
+<p style="text-align:center"><a style="color:black" ><font size="+1">Pixel is a vibrant community of creatives, sharing copyright free images and videos. All contents are released under the Pixabay License, which makes them safe to use without asking for permission or giving credit to the artist - even for commercial purposes.</a></p>
+<br>
+<br>
+<div id="footer">
+<p>Website by Abhishek Gupta</p>
+</div>
+</div>
+</body>
+</html>
